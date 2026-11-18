@@ -1,0 +1,151 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030c18;
+    color: #7a7c78;
+}
+
+
+header {
+    background-color: #c0bab5;
+    color: rgb(217, 224, 209);
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header a {
+    color: rgb(27, 4, 112);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.apresentacao {
+    background-color: #505e54;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.apresentacao h1 {
+    font-size: 32px;
+    color: #0c0a09;
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+
+.botao {
+    display: inline-block;
+    background-color: #2c4457;
+    color: rgb(4, 1, 19);
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+}
+
+
+.cursos {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.cursos h2 {
+    color: #9cb6da;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+
+.container-cursos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: rgb(212, 199, 199);
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ad9c9c;
+    text-align: left;
+}
+
+.card h3 {
+    color: #8193a1;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #302d2d;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #142d4e;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+
+a:hover {
+    background-color: #9b2516;
+    color: #142d4e;
+}
+
+
+a:focus {
+    outline: 3px solid #a39982;
+    outline-offset: 4px;
+}
+
+
+.card:first-child {
+    border: 2px solid #16476e;
+    background-color: #edf5ff;
+}
+
+
+footer {
+    background-color: #606266;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
